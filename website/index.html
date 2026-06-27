@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CraveSpin — Find a restaurant in one spin</title>
+  <meta name="description" content="CraveSpin is an iPhone app that spins a slot-style wheel to pick a restaurant near you. Filter by distance, rating, and price, then let fate choose dinner.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">CraveSpin</a>
+      <nav>
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Restaurant roulette for iPhone</p>
+        <h1>Find a meal in one spin</h1>
+        <p class="lead">
+          Can’t decide where to eat? CraveSpin loads nearby restaurants, spins a gold-trimmed wheel,
+          and picks a winner. Open directions in Maps or reserve when the restaurant supports it.
+        </p>
+        <p class="app-store-note">Available on the App Store for iPhone.</p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="wrap feature-grid">
+        <article class="card">
+          <h2>Spin the wheel</h2>
+          <p>Pull the lever or tap Spin. CraveSpin animates a slot-style reel and lands on one restaurant from your list.</p>
+        </article>
+        <article class="card">
+          <h2>Filter your options</h2>
+          <p>Set distance, minimum rating, price level, and open-now. Search near your current location or another city.</p>
+        </article>
+        <article class="card">
+          <h2>Go from winner to table</h2>
+          <p>See photos, ratings, and hours on the winner card. Open Google Maps for directions or visit the restaurant website to reserve.</p>
+        </article>
+        <article class="card">
+          <h2>Home-screen widget</h2>
+          <p>Add the Spin widget for one-tap access. Tap to open CraveSpin and spin again when you’re ready.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap cta-inner">
+        <h2>Need help?</h2>
+        <p>Questions, feedback, or something not working? We’re happy to help.</p>
+        <a class="button" href="support/">Contact support</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year"></span> CraveSpin</p>
+      <p>
+        <a href="support/">Support</a>
+        <span aria-hidden="true">·</span>
+        <a href="privacy/">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

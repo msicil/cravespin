@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — CraveSpin</title>
+  <meta name="description" content="Get help with CraveSpin. Contact support, troubleshooting tips, and answers to common questions.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="../">CraveSpin</a>
+      <nav>
+        <a href="../support/" aria-current="page">Support</a>
+        <a href="../privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="wrap narrow">
+      <h1>Support</h1>
+      <p class="lead">
+        Thanks for using CraveSpin. If something isn’t working or you have feedback, reach out and we’ll get back to you.
+      </p>
+
+      <section class="prose">
+        <h2>Contact</h2>
+        <p>
+          Email us at
+          <a href="mailto:support@cravespinapp.com">support@cravespinapp.com</a>.
+          Include your iPhone model and iOS version if you’re reporting a bug.
+        </p>
+
+        <h2>Common questions</h2>
+
+        <h3>Why don’t I see real restaurants?</h3>
+        <p>
+          CraveSpin needs location permission to find places near you. Open
+          <strong>Settings → Privacy &amp; Security → Location Services → CraveSpin</strong>
+          and choose <strong>While Using the App</strong>.
+        </p>
+
+        <h3>Why is the wheel empty or spinning fails?</h3>
+        <p>
+          Try widening the search radius or lowering the minimum rating in Filters.
+          Very strict filters can leave no matching restaurants in your area.
+        </p>
+
+        <h3>How do reservations work?</h3>
+        <p>
+          When Google Places marks a restaurant as reservable and provides a website,
+          CraveSpin shows a <strong>Reserve</strong> button that opens the restaurant’s site in Safari.
+          CraveSpin does not take bookings directly.
+        </p>
+
+        <h3>Does the widget spin automatically?</h3>
+        <p>
+          Tapping the home-screen widget opens CraveSpin. If restaurants are already loaded,
+          the app spins the wheel. On first launch it waits until nearby restaurants are ready.
+        </p>
+
+        <h3>How do I delete my data?</h3>
+        <p>
+          CraveSpin does not create an account or store personal data on our servers.
+          Location is used only on your device to search for restaurants.
+          To remove the app and its local data, delete CraveSpin from your iPhone.
+          See our <a href="../privacy/">Privacy Policy</a> for details.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year"></span> CraveSpin</p>
+      <p>
+        <a href="../support/">Support</a>
+        <span aria-hidden="true">·</span>
+        <a href="../privacy/">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

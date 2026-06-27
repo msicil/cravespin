@@ -1,0 +1,17 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Secrets
+CraveSpin/Config.plist
+*.env
+
+# macOS
+.DS_Store
