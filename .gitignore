@@ -9,7 +9,8 @@ xcuserdata/
 .build/
 .swiftpm/
 
-# Secrets
+# Secrets — copy Secrets.xcconfig.example → Secrets.xcconfig
+Secrets.xcconfig
 CraveSpin/Config.plist
 *.env
 

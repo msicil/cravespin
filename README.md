@@ -11,10 +11,12 @@ CraveSpin is an iPhone app that spins a roulette wheel to pick a restaurant near
 Copy secrets when you are ready for live restaurant data:
 
 ```bash
-cp CraveSpin/Config.plist.example CraveSpin/Config.plist
+cp Secrets.xcconfig.example Secrets.xcconfig
 ```
 
-Until `Config.plist` has a valid Google API key, the app uses **mock restaurants** so you can test the wheel immediately.
+Open `Secrets.xcconfig`, paste your Google Places API key, then **Archive** for App Store. The key is injected at build time (not stored in git).
+
+Until `Secrets.xcconfig` has a valid key, Debug builds use **mock restaurants**. Release archives **fail the build** if the key is missing.
 
 ## Google Places setup
 
@@ -24,7 +26,7 @@ Until `Config.plist` has a valid Google API key, the app uses **mock restaurants
    - The bundle ID must match **Signing & Capabilities** in Xcode exactly.
    - If you changed the bundle ID locally, add that string in Google Cloud too.
    - CraveSpin sends `X-Ios-Bundle-Identifier` on each request (required for iOS-restricted keys).
-4. Add the key to `CraveSpin/Config.plist` as `GOOGLE_PLACES_API_KEY`.
+4. Add the key to `Secrets.xcconfig` as `GOOGLE_PLACES_API_KEY` (see `Secrets.xcconfig.example`).
 
 If you see *“requests from this iOS app are blocked”*, the key’s iOS allowlist does not include your app’s current bundle ID.
 

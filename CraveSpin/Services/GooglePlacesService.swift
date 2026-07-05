@@ -13,13 +13,7 @@ struct GooglePlacesService: PlacesServicing {
     }
 
     static func fromBundle() throws -> GooglePlacesService {
-        guard
-            let path = Bundle.main.path(forResource: "Config", ofType: "plist"),
-            let plist = NSDictionary(contentsOfFile: path),
-            let key = plist["GOOGLE_PLACES_API_KEY"] as? String,
-            !key.isEmpty,
-            key != "YOUR_GOOGLE_CLOUD_API_KEY"
-        else {
+        guard let key = GooglePlacesConfiguration.apiKey else {
             throw PlacesServiceError.missingAPIKey
         }
         return GooglePlacesService(apiKey: key)

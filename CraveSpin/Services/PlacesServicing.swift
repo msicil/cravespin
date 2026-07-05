@@ -17,7 +17,7 @@ enum PlacesServiceError: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .missingAPIKey:
-            return "Add your Google Places API key in Config.plist (copy from Config.plist.example)."
+            return "Add your Google Places API key in Secrets.xcconfig (copy from Secrets.xcconfig.example), then rebuild."
         case .invalidResponse:
             return "Could not read restaurant data from Google Places."
         case .apiError(let message):
