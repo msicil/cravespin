@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* CraveRollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* CraveRollApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* Restaurant.swift */; };
+		A10000000000000000000004 /* SpinFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* SpinFilters.swift */; };
+		A10000000000000000000005 /* RouletteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* RouletteViewModel.swift */; };
+		A10000000000000000000006 /* RouletteWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* RouletteWheelView.swift */; };
+		A10000000000000000000007 /* FilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* FilterBarView.swift */; };
+		A10000000000000000000008 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* RestaurantDetailView.swift */; };
+		A10000000000000000000009 /* PlacesServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PlacesServicing.swift */; };
+		A1000000000000000000000A /* MockPlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* MockPlacesService.swift */; };
+		A1000000000000000000000B /* GooglePlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* GooglePlacesService.swift */; };
+		A1000000000000000000000D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* LocationService.swift */; };
+		A1000000000000000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* Assets.xcassets */; };
+		A1000000000000000000000F /* Config.plist.example in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* Config.plist.example */; };
+		A10000000000000000000010 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* AppTheme.swift */; };
+		A10000000000000000000011 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* SplashView.swift */; };
+		A10000000000000000000012 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* RootView.swift */; };
+		A10000000000000000000013 /* SlotHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* SlotHaptics.swift */; };
+		A10000000000000000000014 /* SlotLeverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* SlotLeverView.swift */; };
+		A10000000000000000000015 /* SlotMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* SlotMachineView.swift */; };
+		A10000000000000000000016 /* LeverPullStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* LeverPullStrength.swift */; };
+		A10000000000000000000017 /* GreekOrnament.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* GreekOrnament.swift */; };
+		A10000000000000000000018 /* SearchLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* SearchLocation.swift */; };
+		A10000000000000000000019 /* LocationSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* LocationSelectorView.swift */; };
+		A1000000000000000000001B /* BrandLogoMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* BrandLogoMark.swift */; };
+		A1000000000000000000001C /* GoogleMapsLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000023 /* GoogleMapsLinker.swift */; };
+		A1000000000000000000001D /* PriceLevelButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* PriceLevelButtons.swift */; };
+		A1000000000000000000001E /* JackpotCelebrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* JackpotCelebrationView.swift */; };
+		A1000000000000000000001F /* WinnerPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* WinnerPopupView.swift */; };
+		A10000000000000000000020 /* JackpotWinnerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* JackpotWinnerOverlay.swift */; };
+		A10000000000000000000022 /* ReelSpinEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000029 /* ReelSpinEffects.swift */; };
+		A10000000000000000000023 /* RomanStageBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000030 /* RomanStageBackground.swift */; };
+		A10000000000000000000024 /* MealTypeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000031 /* MealTypeIcon.swift */; };
+		A10000000000000000000025 /* GooglePlacesPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000032 /* GooglePlacesPhotoService.swift */; };
+		A10000000000000000000026 /* RestaurantPhotoStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000033 /* RestaurantPhotoStrip.swift */; };
+		A10000000000000000000027 /* SpinWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000034 /* SpinWidget.swift */; };
+		A10000000000000000000028 /* CraveRollWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A30000000000000000000002 /* CraveRollWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000000000000000000029 /* WidgetSpinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000035 /* WidgetSpinRequest.swift */; };
+		A1000000000000000000002A /* SlotSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000037 /* SlotSounds.swift */; };
+		A1000000000000000000002B /* spin_pull.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000038 /* spin_pull.caf */; };
+		A1000000000000000000002C /* reel_tick_1.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000042 /* reel_tick_1.caf */; };
+		A1000000000000000000002D /* spin_loop.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000040 /* spin_loop.caf */; };
+		A1000000000000000000002E /* winner.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000041 /* winner.caf */; };
+		A1000000000000000000002F /* reel_tick_2.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000043 /* reel_tick_2.caf */; };
+		A10000000000000000000030 /* reel_tick_3.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000044 /* reel_tick_3.caf */; };
+		A10000000000000000000031 /* reel_tick_4.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000045 /* reel_tick_4.caf */; };
+		A10000000000000000000032 /* reel_tick_5.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000046 /* reel_tick_5.caf */; };
+		A10000000000000000000033 /* reel_tick_6.caf in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000047 /* reel_tick_6.caf */; };
+		A10000000000000000000034 /* GooglePlacesConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000004A /* GooglePlacesConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A60000000000000000000009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A70000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000004;
+			remoteInfo = CraveRollWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A60000000000000000000007 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000000028 /* CraveRollWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* CraveRollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraveRollApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* SpinFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinFilters.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* RouletteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* RouletteWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteWheelView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* FilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBarView.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* PlacesServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesServicing.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* MockPlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPlacesService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* GooglePlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000F /* Config.plist.example */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist.example; sourceTree = "<group>"; };
+		A20000000000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000011 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* SlotHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotHaptics.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* SlotLeverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotLeverView.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* SlotMachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineView.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* LeverPullStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeverPullStrength.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* GreekOrnament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekOrnament.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* SearchLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocation.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* LocationSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorView.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		A20000000000000000000022 /* BrandLogoMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLogoMark.swift; sourceTree = "<group>"; };
+		A20000000000000000000023 /* GoogleMapsLinker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsLinker.swift; sourceTree = "<group>"; };
+		A20000000000000000000024 /* PriceLevelButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceLevelButtons.swift; sourceTree = "<group>"; };
+		A20000000000000000000025 /* JackpotCelebrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotCelebrationView.swift; sourceTree = "<group>"; };
+		A20000000000000000000026 /* WinnerPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerPopupView.swift; sourceTree = "<group>"; };
+		A20000000000000000000027 /* JackpotWinnerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotWinnerOverlay.swift; sourceTree = "<group>"; };
+		A20000000000000000000029 /* ReelSpinEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelSpinEffects.swift; sourceTree = "<group>"; };
+		A20000000000000000000030 /* RomanStageBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanStageBackground.swift; sourceTree = "<group>"; };
+		A20000000000000000000031 /* MealTypeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTypeIcon.swift; sourceTree = "<group>"; };
+		A20000000000000000000032 /* GooglePlacesPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesPhotoService.swift; sourceTree = "<group>"; };
+		A20000000000000000000033 /* RestaurantPhotoStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPhotoStrip.swift; sourceTree = "<group>"; };
+		A20000000000000000000034 /* SpinWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWidget.swift; sourceTree = "<group>"; };
+		A20000000000000000000035 /* WidgetSpinRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSpinRequest.swift; sourceTree = "<group>"; };
+		A20000000000000000000036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000037 /* SlotSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotSounds.swift; sourceTree = "<group>"; };
+		A20000000000000000000038 /* spin_pull.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spin_pull.caf; sourceTree = "<group>"; };
+		A20000000000000000000040 /* spin_loop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spin_loop.caf; sourceTree = "<group>"; };
+		A20000000000000000000041 /* winner.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = winner.caf; sourceTree = "<group>"; };
+		A20000000000000000000042 /* reel_tick_1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_tick_1.caf; sourceTree = "<group>"; };
+		A20000000000000000000043 /* reel_tick_2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_tick_2.caf; sourceTree = "<group>"; };
+		A20000000000000000000044 /* reel_tick_3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_tick_3.caf; sourceTree = "<group>"; };
+		A20000000000000000000045 /* reel_tick_4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_tick_4.caf; sourceTree = "<group>"; };
+		A20000000000000000000046 /* reel_tick_5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_tick_5.caf; sourceTree = "<group>"; };
+		A20000000000000000000047 /* reel_tick_6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_tick_6.caf; sourceTree = "<group>"; };
+		A20000000000000000000048 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		A20000000000000000000049 /* Secrets.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig.example; sourceTree = "<group>"; };
+		A2000000000000000000004A /* GooglePlacesConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesConfiguration.swift; sourceTree = "<group>"; };
+		A30000000000000000000001 /* CraveRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraveRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000000000000000000002 /* CraveRollWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CraveRollWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000048 /* Config.xcconfig */,
+				A20000000000000000000049 /* Secrets.xcconfig.example */,
+				A50000000000000000000002 /* CraveRoll */,
+				A50000000000000000000009 /* CraveRollWidget */,
+				A50000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000000000000000000002 /* CraveRoll */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* CraveRollApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A50000000000000000000010 /* Shared */,
+				A50000000000000000000004 /* Models */,
+				A50000000000000000000005 /* ViewModels */,
+				A50000000000000000000006 /* Views */,
+				A50000000000000000000008 /* Theme */,
+				A50000000000000000000007 /* Services */,
+				A50000000000000000000011 /* Resources */,
+				A2000000000000000000000E /* Assets.xcassets */,
+				A2000000000000000000000F /* Config.plist.example */,
+				A20000000000000000000021 /* Config.plist */,
+				A20000000000000000000010 /* Info.plist */,
+			);
+			path = CraveRoll;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* CraveRoll.app */,
+				A30000000000000000000002 /* CraveRollWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* Restaurant.swift */,
+				A20000000000000000000031 /* MealTypeIcon.swift */,
+				A20000000000000000000004 /* SpinFilters.swift */,
+				A20000000000000000000017 /* LeverPullStrength.swift */,
+				A20000000000000000000019 /* SearchLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* RouletteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* RouletteWheelView.swift */,
+				A20000000000000000000007 /* FilterBarView.swift */,
+				A20000000000000000000024 /* PriceLevelButtons.swift */,
+				A20000000000000000000008 /* RestaurantDetailView.swift */,
+				A20000000000000000000012 /* SplashView.swift */,
+				A20000000000000000000013 /* RootView.swift */,
+				A20000000000000000000015 /* SlotLeverView.swift */,
+				A20000000000000000000016 /* SlotMachineView.swift */,
+				A20000000000000000000018 /* GreekOrnament.swift */,
+				A20000000000000000000020 /* LocationSelectorView.swift */,
+				A20000000000000000000022 /* BrandLogoMark.swift */,
+				A20000000000000000000025 /* JackpotCelebrationView.swift */,
+				A20000000000000000000026 /* WinnerPopupView.swift */,
+				A20000000000000000000033 /* RestaurantPhotoStrip.swift */,
+				A20000000000000000000027 /* JackpotWinnerOverlay.swift */,
+				A20000000000000000000029 /* ReelSpinEffects.swift */,
+				A20000000000000000000030 /* RomanStageBackground.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000009 /* PlacesServicing.swift */,
+				A2000000000000000000000A /* MockPlacesService.swift */,
+				A2000000000000000000000B /* GooglePlacesService.swift */,
+				A2000000000000000000004A /* GooglePlacesConfiguration.swift */,
+				A20000000000000000000032 /* GooglePlacesPhotoService.swift */,
+				A20000000000000000000023 /* GoogleMapsLinker.swift */,
+				A2000000000000000000000D /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000008 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000011 /* AppTheme.swift */,
+				A20000000000000000000014 /* SlotHaptics.swift */,
+				A20000000000000000000037 /* SlotSounds.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000009 /* CraveRollWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000036 /* Info.plist */,
+				A20000000000000000000034 /* SpinWidget.swift */,
+			);
+			path = CraveRollWidget;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000010 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000035 /* WidgetSpinRequest.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000011 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000012 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000012 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000038 /* spin_pull.caf */,
+				A20000000000000000000042 /* reel_tick_1.caf */,
+				A20000000000000000000043 /* reel_tick_2.caf */,
+				A20000000000000000000044 /* reel_tick_3.caf */,
+				A20000000000000000000045 /* reel_tick_4.caf */,
+				A20000000000000000000046 /* reel_tick_5.caf */,
+				A20000000000000000000047 /* reel_tick_6.caf */,
+				A20000000000000000000040 /* spin_loop.caf */,
+				A20000000000000000000041 /* winner.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* CraveRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000003 /* Build configuration list for PBXNativeTarget "CraveRoll" */;
+			buildPhases = (
+				A6000000000000000000000A /* Validate API Key */,
+				A60000000000000000000002 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A60000000000000000000003 /* Resources */,
+				A60000000000000000000007 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60000000000000000000008 /* PBXTargetDependency */,
+			);
+			name = CraveRoll;
+			productName = CraveRoll;
+			productReference = A30000000000000000000001 /* CraveRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000000000000000000004 /* CraveRollWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000004 /* Build configuration list for PBXNativeTarget "CraveRollWidgetExtension" */;
+			buildPhases = (
+				A60000000000000000000005 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+				A60000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CraveRollWidgetExtension;
+			productName = CraveRollWidgetExtension;
+			productReference = A30000000000000000000002 /* CraveRollWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A60000000000000000000001 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A60000000000000000000004 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "CraveRoll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000000000000000000001;
+			productRefGroup = A50000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000000000000000000001 /* CraveRoll */,
+				A60000000000000000000004 /* CraveRollWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000E /* Assets.xcassets in Resources */,
+				A1000000000000000000000F /* Config.plist.example in Resources */,
+				A1000000000000000000002B /* spin_pull.caf in Resources */,
+				A1000000000000000000002C /* reel_tick_1.caf in Resources */,
+				A1000000000000000000002F /* reel_tick_2.caf in Resources */,
+				A10000000000000000000030 /* reel_tick_3.caf in Resources */,
+				A10000000000000000000031 /* reel_tick_4.caf in Resources */,
+				A10000000000000000000032 /* reel_tick_5.caf in Resources */,
+				A10000000000000000000033 /* reel_tick_6.caf in Resources */,
+				A1000000000000000000002D /* spin_loop.caf in Resources */,
+				A1000000000000000000002E /* winner.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6000000000000000000000A /* Validate API Key */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Validate API Key";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ]; then\n  if [ -z \"${GOOGLE_PLACES_API_KEY}\" ] || [ \"${GOOGLE_PLACES_API_KEY}\" = \"YOUR_GOOGLE_CLOUD_API_KEY\" ]; then\n    echo \"error: Release builds need a real Google Places API key. Copy Secrets.xcconfig.example to Secrets.xcconfig and paste your key.\"\n    exit 1\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* CraveRollApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* Restaurant.swift in Sources */,
+				A10000000000000000000024 /* MealTypeIcon.swift in Sources */,
+				A10000000000000000000004 /* SpinFilters.swift in Sources */,
+				A10000000000000000000005 /* RouletteViewModel.swift in Sources */,
+				A10000000000000000000006 /* RouletteWheelView.swift in Sources */,
+				A10000000000000000000007 /* FilterBarView.swift in Sources */,
+				A1000000000000000000001D /* PriceLevelButtons.swift in Sources */,
+				A1000000000000000000001E /* JackpotCelebrationView.swift in Sources */,
+				A1000000000000000000001F /* WinnerPopupView.swift in Sources */,
+				A10000000000000000000026 /* RestaurantPhotoStrip.swift in Sources */,
+				A10000000000000000000020 /* JackpotWinnerOverlay.swift in Sources */,
+				A10000000000000000000022 /* ReelSpinEffects.swift in Sources */,
+				A10000000000000000000023 /* RomanStageBackground.swift in Sources */,
+				A10000000000000000000008 /* RestaurantDetailView.swift in Sources */,
+				A10000000000000000000009 /* PlacesServicing.swift in Sources */,
+				A1000000000000000000000A /* MockPlacesService.swift in Sources */,
+				A1000000000000000000000B /* GooglePlacesService.swift in Sources */,
+				A10000000000000000000034 /* GooglePlacesConfiguration.swift in Sources */,
+				A10000000000000000000025 /* GooglePlacesPhotoService.swift in Sources */,
+				A1000000000000000000001C /* GoogleMapsLinker.swift in Sources */,
+				A1000000000000000000000D /* LocationService.swift in Sources */,
+				A10000000000000000000010 /* AppTheme.swift in Sources */,
+				A10000000000000000000011 /* SplashView.swift in Sources */,
+				A10000000000000000000012 /* RootView.swift in Sources */,
+				A10000000000000000000013 /* SlotHaptics.swift in Sources */,
+				A1000000000000000000002A /* SlotSounds.swift in Sources */,
+				A10000000000000000000014 /* SlotLeverView.swift in Sources */,
+				A10000000000000000000015 /* SlotMachineView.swift in Sources */,
+				A10000000000000000000016 /* LeverPullStrength.swift in Sources */,
+				A10000000000000000000017 /* GreekOrnament.swift in Sources */,
+				A10000000000000000000018 /* SearchLocation.swift in Sources */,
+				A10000000000000000000019 /* LocationSelectorView.swift in Sources */,
+				A1000000000000000000001B /* BrandLogoMark.swift in Sources */,
+				A10000000000000000000029 /* WidgetSpinRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000027 /* SpinWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60000000000000000000008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000000000000000000004 /* CraveRollWidgetExtension */;
+			targetProxy = A60000000000000000000009 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000048 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8UX8R797GB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20000000000000000000048 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8UX8R797GB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveRoll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CraveRoll;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CraveRoll uses your location to find nearby restaurants for the wheel.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravespin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveRoll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CraveRoll;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CraveRoll uses your location to find nearby restaurants for the wheel.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravespin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A80000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveRollWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CraveRoll;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravespin.app.SpinWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveRollWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CraveRoll;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravespin.app.SpinWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXProject "CraveRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000000000000000000003 /* Build configuration list for PBXNativeTarget "CraveRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90000000000000000000004 /* Build configuration list for PBXNativeTarget "CraveRollWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000005 /* Debug */,
+				A80000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000000000000000000001 /* Project object */;
+}

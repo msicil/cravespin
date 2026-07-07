@@ -8,7 +8,7 @@ import wave
 from pathlib import Path
 
 SAMPLE_RATE = 44100
-OUT_DIR = Path(__file__).resolve().parent.parent / "CraveSpin" / "Resources" / "Sounds"
+OUT_DIR = Path(__file__).resolve().parent.parent / "CraveRoll" / "Resources" / "Sounds"
 RNG = random.Random(42)
 
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SOUNDS="$ROOT/CraveSpin/Resources/Sounds"
+SOUNDS="$ROOT/CraveRoll/Resources/Sounds"
 
 python3 "$ROOT/scripts/generate_slot_sounds.py"
 

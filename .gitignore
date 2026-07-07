@@ -11,7 +11,7 @@ xcuserdata/
 
 # Secrets — copy Secrets.xcconfig.example → Secrets.xcconfig
 Secrets.xcconfig
-CraveSpin/Config.plist
+CraveRoll/Config.plist
 *.env
 
 # macOS
